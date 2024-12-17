@@ -1,0 +1,161 @@
+/* sharedStyles.css */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+  }
+  
+  .dm-title,
+  .channels-title {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #00aaff;
+  }
+  
+  .new-chat-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-chat-button:hover {
+    background-color: #0088cc;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .dm-title {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #00aaff;
+  }
+  
+  .dm-item {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #333333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .dm-item:hover {
+    background-color: #444444;
+  }
+  
+  .new-chat-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-chat-button:hover {
+    background-color: #0088cc;
+  }
+  .create-room-modal-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-room-modal-button:hover {
+    background-color: #0088cc;
+  }
+  
+  /* Style for the confirmation dialog */
+  .confirmation-dialog {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Style for the buttons in the dialog */
+  .confirmation-dialog {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    position: fixed; /* Gör att den blir fast placerad */
+    top: 35%; /* Justerar avstånd från toppen */
+    left: 50%; /* Centrerar horisontellt */
+    transform: translate(-50%, -10%); /* Kompenserar för mitten */
+    z-index: 1000; /* Gör att dialogen ligger över annan innehåll */
+    text-align: center;
+  }
+  
+  .confirmation-dialog .confirm-button,
+  .confirmation-dialog .cancel-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirmation-dialog .confirm-button {
+    background-color: #00aaff;
+    color: #fff;
+  }
+  
+  .confirmation-dialog .confirm-button:hover {
+    background-color: #0088cc;
+  }
+  
+  .confirmation-dialog .cancel-button {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .confirmation-dialog .cancel-button:hover {
+    background-color: #444;
+  }

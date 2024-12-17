@@ -1,0 +1,105 @@
+.chat-room-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    height: 100vh; /* Full höjd för hela skärmen */
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .back-button {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #00aaff;
+    cursor: pointer;
+    gap: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    color: #0088cc;
+  }
+  
+  .chat-title {
+    text-align: center;
+    font-size: 1.8em;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  .messages-container {
+    flex-grow: 1; /* Gör att den tar upp allt tillgängligt utrymme mellan header och input */
+    overflow-y: auto; /* Gör att meddelanden kan scrollas */
+    padding: 15px;
+    background-color: #333333;
+    border-radius: 5px;
+    border: 1px solid #444444;
+    margin-bottom: 10px;
+  }
+  
+  .message-item {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #e0e0e0;
+  }
+  
+  .message-item.own {
+    background-color: #0066cc;
+    color: #ffffff;
+  }
+  
+  .message-sender {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message-timestamp {
+    font-size: 0.8em;
+    color: #aaaaaa;
+    text-align: right;
+  }
+  
+  .message-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid #444444; /* Separator mellan meddelanden och input */
+    padding-top: 10px;
+  }
+  
+  .message-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    outline: none;
+  }
+  
+  .message-input::placeholder {
+    color: #aaa;
+  }
+  
+  .send-button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }

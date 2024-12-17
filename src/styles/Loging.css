@@ -1,0 +1,130 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 2em;
+    width: 40%;
+    justify-self: center;
+  }
+  
+  form {
+    width: 100%;
+  }
+  h2 {
+    font-size: 24px;
+    color: #efe7e7;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #9f9c9c;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+  }
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .login-btn,
+  .guest-login-btn,
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .login-btn:hover,
+  .guest-login-btn:hover,
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.03);
+  }
+  
+  button:hover,
+  .login-btn:hover,
+  .guest-login-btn:hover {
+    background-color: #9b63d9;
+    transform: scale(1.03);
+  }
+  
+  button:disabled,
+  .login-btn:disabled,
+  button[type="submit"]:disabled {
+    background-color: #444444;
+    cursor: not-allowed;
+  }
+  
+  .reg-link {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #dde5ee;
+    cursor: pointer;
+    transition: color 0.3s;
+    text-decoration: underline;
+  }
+  
+  .reg-link:hover {
+    color: #0056b3;
+  }
+  
+  .errorMain {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: #28a745;
+    font-size: 14px;
+  }
+  @media (max-width: 680px) {
+    .main-form {
+      width: 80%;
+    }
+  }

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* Basfärger för mörk tema */
+  :root {
+    --background-color: #2e2d2d; /* Huvudbakgrundsfärg */
+    --primary-color: #1e1e1e; /* Primär färg för kort och containrar */
+    --text-color: #eeeaea; /* Standard textfärg */
+    --accent-color: #714aa0; /* Accentfärg för knappar och länkar */
+    --error-color: #f2768d; /* Färg för felmeddelanden */
+    --border-color: #c9c5c5; /* Färg för kantlinjer */
+  }
+  
+  /* Bakgrund och text */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
