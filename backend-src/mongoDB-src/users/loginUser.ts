@@ -1,4 +1,4 @@
-import { LoginResult, User } from "../../models/user.js";
+import { LoginResult, User } from "../../models/users.js";
 import bcrypt from "bcrypt";
 import { connectToDatabase } from "./userCon.js";
 

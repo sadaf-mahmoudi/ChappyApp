@@ -1,5 +1,5 @@
 import { MongoClient, Collection, ObjectId, DeleteResult } from "mongodb";
-import { User } from "../../models/user.js"; // Make sure this path is correct
+import { User } from "../../models/users.js"; // Make sure this path is correct
 import { connectToDatabase } from "./userCon.js"; // Adjust this path to point to your database connection utility
 
 export async function deleteUser(id: ObjectId): Promise<DeleteResult | null> {

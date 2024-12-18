@@ -1,5 +1,5 @@
 import Joi from "joi";
-import { User } from "../models/user.js";
+import { User } from "../models/users.js";
 
 // Set default behavior for all schemas
 const schemaDefaults = Joi.defaults((schema) => schema.required());

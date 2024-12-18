@@ -1,5 +1,5 @@
 import { MongoClient, Collection, WithId, ObjectId, FindCursor } from "mongodb";
-import { User } from "../../models/user.js";
+import { User } from "../../models/users.js";
 import { connectToDatabase } from "./userCon.js";
 
 async function fetchUserById(userId: ObjectId): Promise<WithId<User>[]> {

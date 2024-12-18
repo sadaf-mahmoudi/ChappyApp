@@ -1,5 +1,5 @@
 import { MongoClient, Collection, InsertOneResult, ObjectId } from "mongodb";
-import { User } from "../../models/user.js";
+import { User } from "../../models/users.js";
 import { connectToDatabase } from "./userCon.js";
 
 async function addUser(user: User): Promise<ObjectId | null> {

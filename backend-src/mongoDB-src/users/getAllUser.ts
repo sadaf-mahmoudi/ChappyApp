@@ -1,5 +1,5 @@
 import { MongoClient, Collection, WithId } from "mongodb";
-import { User } from "../../models/user.js";
+import { User } from "../../models/users.js";
 import { connectToDatabase } from "../users/userCon.js";
 
 let client: MongoClient;

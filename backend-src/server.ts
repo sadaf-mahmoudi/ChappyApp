@@ -1,5 +1,5 @@
 import express, { Express, NextFunction, Request, Response } from "express";
-import userRoutes from "./routes/userRoutes.js"; // Se till att sökvägen är korrekt
+import userRoutes from "./routes/userRoutes.js"; 
 import chatMessagesRouter from "./routes/RoomMessageRoutes.js";
 import roomRoutes from "./routes/roomRoutes.js";
 import dmRoutes from "./routes/DMRoutes.js";

@@ -1,7 +1,7 @@
 import express, { Router, Request, Response } from "express";
 import { fetchAllUsers } from "../mongoDB-src/users/getAllUser.js";
 import { ObjectId, WithId } from "mongodb";
-import { User } from "../models/user.js";
+import { User } from "../models/users.js";
 import { fetchUserById } from "../mongoDB-src/users/getUserById.js";
 import { isValidUser } from "../data/validationUser.js";
 import { addUser } from "../mongoDB-src/users/addUser.js";

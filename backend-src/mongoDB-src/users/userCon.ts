@@ -1,5 +1,5 @@
 import { MongoClient, Db, Collection } from "mongodb";
-import { User } from "../../models/user.js"; // Ensure this path correctly points to your User model
+import { User } from "../../models/users.js"; // Ensure this path correctly points to your User model
 
 // Environment variable for MongoDB connection string
 const dbConnection: string | undefined = process.env.CONNECTION_STRING;
