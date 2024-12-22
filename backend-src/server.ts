@@ -4,7 +4,7 @@ import chatMessagesRouter from "./routes/RoomMessageRoutes.js";
 import roomRoutes from "./routes/roomRoutes.js";
 import dmRoutes from "./routes/DMRoutes.js";
 
-const port: number = Number(process.env.PORT || 5173);
+const port: number = Number(process.env.PORT || 2000);
 
 const app: Express = express();
 

@@ -1,5 +1,5 @@
 // mockUsers.ts
-import { User } from "../models/user";
+import { User } from "../models/users";
 export const UserList: User[] = [
   {
     username: "johnDoe",
